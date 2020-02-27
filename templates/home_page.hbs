@@ -75,9 +75,7 @@
     </section>
   {{/if}}
 
-  <section class="section home-section activity">
-    {{#if settings.show_recent_activity}}
-      {{recent_activity}}
-    {{/if}}
-  </section>
+  {{ #each sections }}
+    {{ name }}
+  {{ /each }}
 </div>
